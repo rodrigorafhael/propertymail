@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Propertymail::Application.config.secret_token = '6ef0d43ed4d964d7d2dd09b52fa1ec7c71380799f091955548c893696248eadc3c39b6f6b8a6a41a37c4ad4b152b390917d705ade287dec9960c8aa18e161002'
+Propertymail::Application.config.secret_token = '6ff4aa7fbcdaadbab8b3825296076550f484cf583124c53380e956c5e73a6e71936c7771a23a0d1d08d2d20da7813e24786122f25c05b2de5ea8d53acec12580'

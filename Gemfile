@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
 gem 'rails', '3.2.16'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'sqlite3'
 
 
 # Gems used only for assets and not required
@@ -36,19 +36,3 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-
-gem 'devise'
-gem 'figaro'
-gem 'haml-rails'
-gem 'pg'
-gem 'thin'
-
-group :development do
-  gem 'better_errors'
-  gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
-  gem 'html2haml'
-  gem 'hub', :require=>nil
-  gem 'quiet_assets'
-  gem 'rails_layout'
-end
-
